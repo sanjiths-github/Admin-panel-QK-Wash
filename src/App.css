@@ -1,0 +1,9 @@
+.content {
+    margin-left: 345px; /* Ensures the content starts next to the sidebar */
+    padding: 20px; /* Adds inner spacing */
+    width: calc(100% - 345px); /* Fills the remaining space dynamically */
+    height: 100vh; /* Matches viewport height */
+    overflow-x: hidden; /* Hides horizontal scrolling */
+    overflow-y: auto; /* Allows vertical scrolling if necessary */
+    box-sizing: border-box; /* Ensures padding doesn't add to width/height */
+  }
